@@ -15,6 +15,7 @@ $ ruby change_spec.rb
 Example
 
 ```
+available_coins = {25 => 'quarter', 10 => 'dime', 5 => 'nickel', 1 => 'penny'}
 Change.change_for(17, available_coins)
 
 Output: {"dime"=>1, "nickel"=>1, "penny"=>2}
