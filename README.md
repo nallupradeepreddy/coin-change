@@ -12,6 +12,14 @@ Command to test change_spec.rb
 $ ruby change_spec.rb
 ```
 
+Example
+
+```
+Change.change_for(17, available_coins)
+
+Output: {"dime"=>1, "nickel"=>1, "penny"=>2}
+```
+
 ## Steps to install ruby for ubuntu
 ```
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
